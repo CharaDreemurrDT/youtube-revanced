@@ -9,4 +9,4 @@ parallel-jobs = 1
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/system_neutral1_900 -OlightThemeBackgroundColor=@android:color/system_neutral1_50"
+patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#1e2030 -OlightThemeBackgroundColor=@android:color/system_neutral1_50"
