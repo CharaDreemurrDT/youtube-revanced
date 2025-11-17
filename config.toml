@@ -10,21 +10,3 @@ parallel-jobs = 1
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
 patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#1e2030 -OlightThemeBackgroundColor=@android:color/system_neutral1_50"
-
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "module"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "module"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=#1e2030 -OlightThemeBackgroundColor=@android:color/system_neutral1_50"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
